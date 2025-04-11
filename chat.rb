@@ -30,7 +30,7 @@ user_input = gets.chomp
   
 
   #Call the API response to get the next message from GPT
-  api_response = client.chat (
+  api_response = client.chat(
     parameters:{
       model: "gpt-3.5-turbo",
       messages: message_list
